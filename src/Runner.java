@@ -18,6 +18,8 @@ public class Runner {
         // whereas here we don't need to add any data into the object when we create it.
         Child2 child2 = new Child2(); // whereas here we can create the object without having to pass in variables.
 
+        // in this example we didnt have to reference the parent class variables at all. All we had to do was add extends and add super().
+
         child2.setName("Child2name");
         System.out.println("Child 2 Age: "+child2.getName());
 
